@@ -6,8 +6,8 @@ body{
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
 }
-calculator{
-    font-family: Arial, Helvetica, sans-serif;
+#calculator{
+    font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: : 15px;
     max-width:500px;
@@ -17,7 +17,7 @@ calculator{
     width: 100%;
     padding: 20px;
     font-size: 5rem;
-    text-decoration: left;
+    text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
 }
@@ -25,7 +25,7 @@ calculator{
     display: : grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
-    padding:25px;
+    padding: 25px;
 }
 button{
     width: 100px;
